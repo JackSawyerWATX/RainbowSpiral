@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rainbow Spiral</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>🌈 Rainbow Spiral Pattern</h1>
+    <p>This recreates your Python turtle graphics spiral!</p>
+    <canvas id="spiralCanvas" width="800" height="800"></canvas>
+    <div style="margin: 10px 0;">
+      <label for="speedSlider" style="margin-right: 10px;">Animation Speed:</label>
+      <input type="range" id="speedSlider" min="1" max="10" value="3" style="vertical-align: middle;">
+      <span id="speedValue">3</span>
+    </div>
+    <button onclick="drawSpiral()">Reset & Redraw Spiral</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
