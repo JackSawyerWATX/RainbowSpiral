@@ -1,6 +1,6 @@
 import turtle
 
-t=turtle.Turtle(); t.speed(-15)
+t=turtle.Turtle(); t.speed(-0)
 
 colors=["red", "yellow", "green", "blue", "indigo", "violet"]
 
